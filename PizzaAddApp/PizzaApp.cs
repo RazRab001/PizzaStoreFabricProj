@@ -66,7 +66,7 @@ namespace PizzaAddApp
                 }
             }
         }
-        public static void addNewPizza(string pizzaName, Topping topping)
+        public static void addNewPizza(string pizzaName)
         {
             pizzas.Add(new Pizza(pizzaName, topping));
         }
