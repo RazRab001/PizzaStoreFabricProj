@@ -12,6 +12,7 @@ namespace PizzaAddApp
         List<Dough> doughs;
         List<Ingredient> souses;
         List<Ingredient> toppings;
+        List<Pizza> pizzas;
         public PizzaApp()
         {
             doughs = new List<Dough>();
@@ -30,6 +31,9 @@ namespace PizzaAddApp
         {
             toppings.Add(new Ingredient(name, cost));
         }
-        public static
+        public static void addNewPizza(string pizzaName, Topping topping)
+        {
+            pizzas.Add(new Pizza(pizzaName, topping));
+        }
     }
 }
