@@ -31,6 +31,7 @@ namespace PizzaAddApp
         {
             toppings.Add(new Ingredient(name, cost));
         }
+        public static void 
         public static void addNewPizza(string pizzaName, Topping topping)
         {
             pizzas.Add(new Pizza(pizzaName, topping));

@@ -6,7 +6,6 @@
         {
             PizzaAddApp pizzaAddApp = new PizzaAddApp();
             Dough dough = new Dough("Tie pizza", 1.3m);
-            //pizzaAddApp.addNewPizza("Margaritta");
         }
     }
 }
